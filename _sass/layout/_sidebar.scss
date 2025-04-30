@@ -183,11 +183,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   .sidebar-bottom {
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 2rem; // 오른쪽 패딩도 동일하게 맞춤
     margin-bottom: 1.5rem;
-
+    display: flex;
+    justify-content: center; // 가운데 정렬 추가
+  
     @include bp.xxxl {
       padding-left: 2.75rem;
+      padding-right: 2.75rem;
       margin-bottom: 1.75rem;
     }
 
