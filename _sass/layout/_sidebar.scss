@@ -57,15 +57,15 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 108px;
+    height: 108px;
     overflow: visible; // 이미지 확대 시 잘리지 않도록 설정
     transform: translateZ(0); // Safari 확대 버그 방지
     position: relative; // 이미지 정중앙 배치용
   
     @include bp.sm {
-      width: 100px;
-      height: 100px;
+      width: 108px;
+      height: 108px;
     }
   
     img {

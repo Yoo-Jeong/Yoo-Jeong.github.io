@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: ✧‧₊˚ # the main title
 
-tagline: Hi! # it will display as the subtitle
+tagline: 또 다시 몇 번이고 이 밤으로 돌아올 거야 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
