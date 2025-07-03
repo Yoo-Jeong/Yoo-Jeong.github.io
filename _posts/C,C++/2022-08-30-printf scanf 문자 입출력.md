@@ -2,7 +2,7 @@
 title: printf() scanf() 문자 입출력
 #author: Yoojeong
 date: 2022-08-30 14:10:00 +0800
-categories: [C++, 이론]
+categories: [Study, C/C++]
 tags: [c, c++]
 render_with_liquid: false
 ---
