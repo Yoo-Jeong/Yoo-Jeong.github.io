@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: ✧‧₊˚ # the main title
 
-tagline: Cook yourself well # it will display as the subtitle
+tagline: Hi! # it will display as the subtitle
 #또 다시 몇 번이고<br>이 밤으로 돌아올 거야
 #Cook yourself well
 #D1D5F2
@@ -230,3 +230,4 @@ jekyll-archives:
 
 plugins:
    - jekyll-target-blank
+

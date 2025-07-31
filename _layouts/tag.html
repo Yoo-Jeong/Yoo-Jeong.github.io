@@ -11,6 +11,8 @@ layout: page
     {{ page.title }}
     <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
   </h1>
+
+{% comment %}  
   <ul class="content ps-0">
     {% for post in page.posts %}
       <li class="d-flex justify-content-between px-md-3">
@@ -20,4 +22,45 @@ layout: page
       </li>
     {% endfor %}
   </ul>
+</div>
+{% endcomment %}
+
+  {% if page.title == "music" %}
+    <!-- ✅ music 태그만 갤러리 뷰 적용 -->
+    <div class="gallery-grid">
+      {% for post in page.posts %}
+        <div class="gallery-card">
+          <a href="{{ post.url | relative_url }}">
+            {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+            {% else %}
+              <!-- 기본 썸네일 이미지 -->
+              <img src="/assets/img/default-thumbnail.jpg" alt="default image">
+            {% endif %}
+            <div class="gallery-info">
+              <h3>{{ post.title }}</h3>
+              <p class="gallery-date">{{ post.date | date: "%Y-%m-%d" }}</p>
+
+              <!-- description이 있으면 이탤릭체로 출력 -->
+              {% if post.description %}
+                <p class="gallery-description"><em>{{ post.description }}</em></p>
+              {% endif %}
+
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <!-- 📄 기존 리스트 뷰 유지 -->
+    <ul class="content ps-0">
+      {% for post in page.posts %}
+        <li class="d-flex justify-content-between px-md-3">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="dash flex-grow-1"></span>
+          {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
