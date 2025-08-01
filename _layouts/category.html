@@ -25,8 +25,8 @@ layout: page
   </ul>
   {% endcomment %}
 
-  {% if page.title == "Taste" %}
-    <!-- ✅ Taste 카테고리만 갤러리 뷰 적용 -->
+{% if page.title == "Taste" or page.title == "Personal" %}
+  <!-- ✅ Taste, Personal 카테고리 갤러리 뷰 적용 -->
     <div class="gallery-grid">
       {% for post in page.posts %}
         <div class="gallery-card">
