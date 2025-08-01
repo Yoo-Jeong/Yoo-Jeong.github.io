@@ -25,8 +25,11 @@ layout: page
 </div>
 {% endcomment %}
 
-  {% if page.title == "music" %}
-    <!-- ✅ music 태그만 갤러리 뷰 적용 -->
+  {% assign gallery_categories = site.data.tag_views.gallery_view %}
+  {% assign list_categories = site.data.tag_views.list_view %}
+
+  {% if gallery_categories contains page.title %}
+    <!-- ✅ 갤러리 뷰 렌더링 -->
     <div class="gallery-grid">
       {% for post in page.posts %}
         <div class="gallery-card">
@@ -41,7 +44,6 @@ layout: page
               <h3>{{ post.title }}</h3>
               <p class="gallery-date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
-              <!-- description이 있으면 이탤릭체로 출력 -->
               {% if post.description %}
                 <p class="gallery-description"><em>{{ post.description }}</em></p>
               {% endif %}
@@ -51,8 +53,9 @@ layout: page
         </div>
       {% endfor %}
     </div>
+
   {% else %}
-    <!-- 📄 기존 리스트 뷰 유지 -->
+    <!-- 📄 리스트 뷰 렌더링 -->
     <ul class="content ps-0">
       {% for post in page.posts %}
         <li class="d-flex justify-content-between px-md-3">
