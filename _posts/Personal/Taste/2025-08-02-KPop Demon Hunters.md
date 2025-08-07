@@ -5,7 +5,7 @@ date: 2025-08-02 10:45:00 +0800
 categories: [Personal, Taste]
 description: 
 tags: [Animation]
-image: /assets/img/my/KPop Demon Hunters.jpg  # 썸네일 경로
+image: /assets/img/Taste/KPop Demon Hunters.jpg  # 썸네일 경로
 show_image: false
 ---
 

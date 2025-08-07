@@ -5,7 +5,7 @@ date: 2025-05-11 02:16:00 +0800
 categories: [Personal, Taste]
 description: The Golden Age will come
 tags: [music]
-image: /assets/img/my/Before & After.png  # 썸네일 경로
+image: /assets/img/Taste/Before & After.png  # 썸네일 경로
 show_image: false
 ---
 
