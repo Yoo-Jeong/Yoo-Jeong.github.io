@@ -9,7 +9,7 @@ image: /assets/img/Taste/KPop Demon Hunters.jpg  # 썸네일 경로
 show_image: false
 ---
 
-<img src="/assets/img/my/KPop Demon Hunters.jpg" 
+<img src="/assets/img/Taste/KPop Demon Hunters.jpg" 
      alt="img" 
      style="width:75%; display:block; margin:auto;">
 
