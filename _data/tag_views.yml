@@ -1,7 +1,9 @@
 gallery_view:
   - music
-  - Animation
+  - animation
+  - game
   - pic
+
 
 list_view:
   - c++
