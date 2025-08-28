@@ -1,5 +1,19 @@
 # _data/categories.yml
-- Project
-- Study
-- Personal
-- Blogging
+Project:
+
+Study:
+  - C/C++
+  - 자료구조
+  - 알고리즘
+  - 디자인 패턴
+  - 게임 수학
+  - 코드 조각
+  - etc
+
+Personal:
+  - Gallery
+  - Taste
+  
+Blogging:
+  - Custom
+  - Tutorial
