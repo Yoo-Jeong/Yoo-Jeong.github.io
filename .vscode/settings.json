@@ -4,7 +4,14 @@
   "editor.formatOnSave": true,
   // Shopify Liquid
   "files.associations": {
-    "*.html": "html"
+    "*.html": "html",
+    "list": "cpp",
+    "map": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "xhash": "cpp",
+    "xstring": "cpp",
+    "xtree": "cpp"
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
