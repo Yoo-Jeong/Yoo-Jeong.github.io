@@ -28,8 +28,14 @@ show_image: false
 
 오랜만에 만나서 아이프리도 하고 킹프리도 보고 맛있는것도 먹고 즐거웠다.  
 
+
 <br>
 
+---
+
+<br>
+
++2025-09-23
 
 <img src="/assets/img/Taste/250923킹투어10주차특전.jpeg" 
      alt="img" 
