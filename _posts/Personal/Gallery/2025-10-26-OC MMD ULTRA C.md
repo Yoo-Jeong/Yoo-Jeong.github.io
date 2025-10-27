@@ -11,7 +11,7 @@ show_image: false
 {% include embed/youtube.html id='VeRsRP6LFfs' %}  
 
 
-Song: Giga＆TeddyLoid, Reol 
+Song: Giga＆TeddyLoid, Reol  
 [ULTRA C](https://youtu.be/7WryveKlyX8?si=SwlSaNlmiWHBqRWF)  
 
 
