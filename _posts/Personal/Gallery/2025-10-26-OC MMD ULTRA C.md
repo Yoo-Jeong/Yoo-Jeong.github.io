@@ -26,3 +26,9 @@ MaddyTheHuman (https://booth.pm/ko/items/4598256)
 Microphone acc: しゆしゆ (https://3d.nicovideo.jp/works/td46031)  
 
 <br>
+
+---
+
+<br>
+
+{% linkpreview "https://youtu.be/G_ZmEqv6hN4?si=oNhyyrakwEhTFRl_" %}  
