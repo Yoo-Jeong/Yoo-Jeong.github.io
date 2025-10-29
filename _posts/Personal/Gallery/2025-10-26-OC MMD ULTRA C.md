@@ -31,4 +31,5 @@ Microphone acc: しゆしゆ (https://3d.nicovideo.jp/works/td46031)
 
 <br>
 
-{% linkpreview "https://youtu.be/G_ZmEqv6hN4?si=oNhyyrakwEhTFRl_" %}  
+{% include embed/youtube.html id='G_ZmEqv6hN4' %}
+
