@@ -25,5 +25,3 @@ Model: VRoid
 Model cloth:     
 Mini (https://minidesley.booth.pm/items/2994453)  
 MaddyTheHuman (https://booth.pm/ko/items/4598256)  
-
-<br>
