@@ -15,7 +15,7 @@ Song: Giga＆TeddyLoid, Reol
 [ULTRA C](https://youtu.be/7WryveKlyX8?si=SwlSaNlmiWHBqRWF)  
 
 
-Motion/Stage: Colorful Palette
+Motion/Stage: Colorful Palette  
 Stage: kotami cafe (https://bowlroll.net/file/179099)  
 Effect: ray-mmd-1.5.0, ScreenTex改変_動く入射光, ikDiffusion1, AutoLuminous4, ObjectLuminous, AnimeScreenTex_v1.0, ikclut ex 2019, 空中に漂う埃, ScreenTex改変_がらくた屋, ikBokeh_v020a
 
