@@ -90,3 +90,43 @@
   margin-right: 5px;                    /* 오른쪽 마진 */
   transition: background-color 0.3s ease, color 0.3s ease; /* 배경, 글자색 애니메이션 */
 }
+
+
+
+
+/* 접기/펼치기 박스 커스텀 */
+.custom-collapse {
+  border: 1px dashed #d3d3d3; /* 연한 점선 색상 */
+  border-radius: 4px;
+  padding: 20px;
+  margin: 15px 0;
+  /* 라이트 모드에선 연회색, 다크 모드에선 진한 회색 */
+  background-color: #fbfbfb; 
+}
+
+/* 다크 모드 대응 */
+[data-mode='dark'] .custom-collapse {
+  background-color: #252525;
+  border-color: #444;
+}
+
+.custom-collapse summary {
+  cursor: pointer;
+  color: #adb5bd; /* '닫기' 텍스트를 연한 회색으로 */
+  font-size: 0.95rem;
+  list-style: none; /* 기본 화살표 숨기기 (선택 사항) */
+  outline: none;
+}
+
+/* 마우스를 올렸을 때 (Hover) */
+.custom-collapse summary:hover {
+  color: #495057; /* 마우스 호버 시: 진한 회색으로 변경 */
+}
+
+.custom-collapse[open] summary {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f1f3f5;
+  padding-bottom: 8px;
+}
+
+
